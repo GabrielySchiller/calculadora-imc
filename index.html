@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora-IMC</title>
+    <link rel="shortcut icon" href="./img/imc.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/responsive.css">
+</head>
+<body>
+
+    <main class="container">
+        <div class="img">
+            <img src="./img/img.png" width="500px" alt="Pessoas">
+        </div>
+
+        <div class="caixa-calculadora">
+            <div class="titulo">
+              <h1>Calculadora - IMC</h1>
+            </div>
+
+            <div class="inputs">
+                <p>Peso em Kg</p>
+                <input id="peso" type="number">
+                <span class="icone"><img src="./img/peso (3).png" width="20px" ></span>
+            </div>
+
+            <div class="inputs">
+                <p>Altura em metros</p>
+                <input id="altura" type="number">
+                <span class="icone"><img src="./img/governante.png" width="20px"></span>
+            </div>
+
+            <div class="btn">
+              <input id="btn-calc" type="button" value="CALCULAR" onclick="calcular()">
+            </div>
+
+            <div id="res"></div>
+        </div>
+    </main>
+
+    <footer><a href="https://www.flaticon.com/br/icones-gratis/kg" title="kg ícones">Kg ícones criados por yoyonpujiono - Flaticon</a> <br>
+        <a href="https://www.flaticon.com/br/icones-gratis/regua" title="régua ícones">Régua ícones criados por Freepik - Flaticon</a>
+    </footer>
+    
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

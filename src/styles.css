@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19, 18, 18);
+    color: rgb(252, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 800px;
+    
+    gap: 50px;
+
+}
+
+.container .img img{
+    max-width: 100%;
+}
+
+.caixa-calculadora{
+    background-color: rgb(51, 50, 50);
+    border-radius: 6px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 450px;
+    gap: 30px;
+    
+   
+   
+}
+
+.titulo h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    text-shadow: #000000 1px 5px 10px;
+
+    
+}
+
+
+
+.caixa-calculadora .inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 25px;
+    position: relative;
+    gap: 5px;
+    
+
+}
+
+
+.caixa-calculadora .inputs input{
+    
+    width: 85%;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    background-color: rgb(51, 50, 50);
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    
+
+}
+
+.inputs input:focus{
+    outline: none; 
+    border-color: transparent; 
+    border-bottom: #fff solid 2px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;  /* Estilo específico para Webkit (Chrome, Safari, Opera) */
+    margin: 0;
+}
+
+
+
+
+
+
+.icone{
+    z-index: 2;
+    position: absolute;
+    top: 70%;
+    right: 70px;
+    transform: translateY(-50%);
+    
+}
+
+.btn{
+    padding: 5px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#btn-calc{
+    padding: 5px 70px;
+    font-size: 20px;
+    background-color: rgb(1, 108, 56);
+    color: #fff;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 40px;
+    font-weight: 500;
+    box-shadow: #000000 1px 5px 10px;
+   
+}
+
+#btn-calc:hover{
+    background-color: rgb(157, 246, 139);
+    transition: 0.5s;
+    color: rgb(51, 50, 50);
+}
+
+#res{
+   
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+footer a{
+    color: #827f7f;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic ;
+    font-style: 10px;
+    margin-left: 20px;
+    
+}
