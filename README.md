@@ -17,12 +17,6 @@ Este projeto é uma **calculadora de IMC** (Índice de Massa Corporal) simples, 
 - **CSS3**
 - **JavaScript (ES6)**
 
-## Como Usar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
 
 Estrutura do Projeto
 ├── index.html         # Estrutura HTML da página
